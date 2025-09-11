@@ -1,0 +1,20 @@
+# รับข้อมูลจากผู้ใช้
+name = input("ชื่อ:ฐตวรรณ ")
+surname = input("นามสกุล:พงษ์พยัคฆ์ ")
+nickname = input("ชื่อเล่น:ปุ้ง ")
+address = input("ที่อยู่:11/13 เรียบด่วนทุ่งครุ ")
+age = input("อายุ:17 ")
+grade = input("ระดับชั้นที่เรียนอยู่:ม.5 ")
+favorite_food = input("อาหารที่ชอบ:กะเพรา ")
+favorite_tech = input("ชอบอะไรในด้านเทคโนโลยี:โค้ด ")
+
+# แสดงผลข้อมูล
+print("\n--- ข้อมูลส่วนตัวของฉัน ---")
+print("ชื่อ:", name)
+print("นามสกุล:", surname)
+print("ชื่อเล่น:", nickname)
+print("ที่อยู่:", address)
+print("อายุ:", age, "ปี")
+print("ระดับชั้น:", grade)
+print("อาหารที่ชอบ:", favorite_food)
+print("สิ่งที่ชอบในด้านเทคโนโลยี:", favorite_tech)
